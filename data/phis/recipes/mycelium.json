@@ -1,0 +1,15 @@
+﻿{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:dirt"
+        },
+        {
+            "tag": "phis:mushrooms"
+        }
+    ],
+    "result": {
+        "item": "minecraft:mycelium",
+        "count": 1
+    }
+}

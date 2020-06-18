@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "phis:grass_block"
+    ]
+  },
+  "criteria": {
+    "has_wheat_seeds": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:wheat_seeds"
+          }
+        ]
+      }
+    },
+	"has_dirt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:dirt"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "phis:grass_block"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_wheat_seeds",
+	  "has_dirt",
+      "has_the_recipe"
+    ]
+  ]
+}

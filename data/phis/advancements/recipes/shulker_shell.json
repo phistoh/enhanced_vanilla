@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "phis:shulker_shell"
+    ]
+  },
+  "criteria": {
+    "has_popped_chorus_fruit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:popped_chorus_fruit"
+          }
+        ]
+      }
+    },
+	"has_shulker_box": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:shulker_box"
+          }
+        ]
+      }
+    },
+	"has_shulker_shell": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:shulker_shell"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "phis:shulker_shell"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_popped_chorus_fruit",
+      "has_shulker_box",
+      "has_shulker_shell",
+      "has_the_recipe"
+    ]
+  ]
+}
