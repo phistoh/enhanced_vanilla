@@ -1,0 +1,43 @@
+
+{
+    "type": "minecraft:generic",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+							"tag": "{CustomPotionEffects:[{Id:9,Amplifier:9,Duration:120},{Id:15,Amplifier:2,Duration:120}], CustomPotionColor:2353879, HideFlags:32}"
+						},
+                        {
+                            "function": "minecraft:set_name",
+                            "name":
+                            {
+                                "text": "Potion of Recall",
+                                "color": "#23EAD7"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore":
+                            [
+                                {
+                                    "text": "Drinking this returns you home.",
+                                    "color": "#BDF8F3"
+                                },
+								{
+                                    "text": "Makes you feel a little bit dizzy though.",
+                                    "color": "#BDF8F3"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
