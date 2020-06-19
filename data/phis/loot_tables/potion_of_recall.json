@@ -17,7 +17,7 @@
                             "function": "minecraft:set_name",
                             "name":
                             {
-                                "text": "Potion of Recall",
+                                "translate": "phis.potion_of_recall",
                                 "color": "#23EAD7"
                             }
                         },
@@ -26,11 +26,11 @@
                             "lore":
                             [
                                 {
-                                    "text": "Drinking this returns you home.",
+                                    "translate": "phis.potion_of_recall_lore_1",
                                     "color": "#BDF8F3"
                                 },
 								{
-                                    "text": "Makes you feel a little bit dizzy though.",
+                                    "translate": "phis.potion_of_recall_lore_2",
                                     "color": "#BDF8F3"
                                 }
                             ]

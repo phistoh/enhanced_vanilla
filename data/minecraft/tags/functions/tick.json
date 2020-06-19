@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "phis:sleep",
-	"phis:losexp"
+	"phis:losexp",
+	"phis:teleport_home",
+	"phis:sunrise_title"
   ]
 }
