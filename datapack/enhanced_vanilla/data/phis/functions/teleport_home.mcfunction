@@ -24,7 +24,7 @@ execute as @p[scores={is_tp=39}] run effect give @s minecraft:night_vision 2 1 t
 execute in minecraft:the_end as @p[scores={is_tp=40}] run tp @s 500 5 500
 
 # post-teleport sound / title
-execute as @p[scores={finished_tp=1}] at @s run playsound minecraft:block.portal.travel master @s ~ ~ ~ 2.0
+execute as @p[scores={finished_tp=1}] at @s run playsound minecraft:block.conduit.activate master @s ~ ~ ~ 2.0
 execute as @p[scores={finished_tp=1,potions_used=1}] run title @s subtitle [{"translate":"phis.number_of_potions_used_one","color":"gray","with":[{"score":{"name":"@s","objective":"potions_used"},"color":"dark_aqua"}]}]
 execute as @p[scores={finished_tp=1,potions_used=2..}] run title @s subtitle [{"translate":"phis.number_of_potions_used_multiple","color":"gray","with":[{"score":{"name":"@s","objective":"potions_used"},"color":"dark_aqua"}]}]
 execute as @p[scores={finished_tp=1}] run title @s title {"translate":"phis.welcome_back","color":"gold"}
