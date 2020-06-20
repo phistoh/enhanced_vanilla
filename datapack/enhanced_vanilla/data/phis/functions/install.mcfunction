@@ -4,7 +4,6 @@ scoreboard objectives add slept_in_bed minecraft.custom:minecraft.sleep_in_bed
 
 # Potion of Recall
 scoreboard objectives add is_tp dummy
-scoreboard objectives add finished_tp dummy
 scoreboard objectives add potions_used dummy
 # Select one player to initialize portal
 execute as @p[limit=1] run tag @s add init_player

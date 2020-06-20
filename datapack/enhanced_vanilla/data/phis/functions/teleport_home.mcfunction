@@ -19,19 +19,19 @@ scoreboard players add @p[scores={is_tp=10}] potions_used 1
 execute as @p[scores={is_tp=12}] run tellraw @a [{"text":" > ","color":"gray"},{"translate":"phis.is_recalling","with":[{"selector":"@s"}],"color":"gray","hoverEvent":{"action":"show_text","value":[{"translate":"phis.stat.potions_of_recalling_used","with":[{"score":{"name":"@s","objective":"potions_used"},"color":"dark_aqua"}],"color":"gray"}]}}]
 
 # set up post-teleport scoreboard and teleport player to the end
-scoreboard players set @p[scores={is_tp=38}] finished_tp 1
+execute as @p[scores={is_tp=38}] run tag @s add finished_tp
 execute as @p[scores={is_tp=39}] run effect give @s minecraft:night_vision 2 1 true
 execute in minecraft:the_end as @p[scores={is_tp=40}] run tp @s 500 5 500
 
 # post-teleport sound / title
-execute as @p[scores={finished_tp=1}] at @s run playsound minecraft:block.conduit.activate master @s ~ ~ ~ 2.0
-execute as @p[scores={finished_tp=1,potions_used=1}] run title @s subtitle [{"translate":"phis.number_of_potions_used_one","color":"gray","with":[{"score":{"name":"@s","objective":"potions_used"},"color":"dark_aqua"}]}]
-execute as @p[scores={finished_tp=1,potions_used=2..}] run title @s subtitle [{"translate":"phis.number_of_potions_used_multiple","color":"gray","with":[{"score":{"name":"@s","objective":"potions_used"},"color":"dark_aqua"}]}]
-execute as @p[scores={finished_tp=1}] run title @s title {"translate":"phis.welcome_back","color":"gold"}
+execute as @p[tag=finished_tp] at @s run playsound minecraft:block.conduit.activate master @s ~ ~ ~ 2.0
+execute as @p[tag=finished_tp,scores={potions_used=1}] run title @s subtitle [{"translate":"phis.number_of_potions_used_one","color":"gray","with":[{"score":{"name":"@s","objective":"potions_used"},"color":"dark_aqua"}]}]
+execute as @p[tag=finished_tp,scores={potions_used=2..}] run title @s subtitle [{"translate":"phis.number_of_potions_used_multiple","color":"gray","with":[{"score":{"name":"@s","objective":"potions_used"},"color":"dark_aqua"}]}]
+execute as @p[tag=finished_tp] run title @s title {"translate":"phis.welcome_back","color":"gold"}
 
 # reset scoreboards
 scoreboard players set @p[scores={is_tp=1..},nbt=!{ActiveEffects:[{Id:9b,Amplifier:9b},{Id:15b,Amplifier:2b}]}] is_tp 0
-scoreboard players set @p[scores={finished_tp=1..},nbt=!{ActiveEffects:[{Id:9b,Amplifier:9b},{Id:15b,Amplifier:2b}]}] finished_tp 0
+execute as @p[tag=finished_tp,nbt=!{ActiveEffects:[{Id:9b,Amplifier:9b},{Id:15b,Amplifier:2b}]}] run tag @s remove finished_tp
 
 # enable "The End?" and "The End" advancements
 execute as @p[scores={is_tp=0}] run advancement grant @s only phis:hidden no_recall_potion
