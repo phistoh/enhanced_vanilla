@@ -1,0 +1,19 @@
+
+{
+    "phis.potion_of_recall": "Trank der Wiederkehr",
+    "phis.potion_of_recall_lore_1": "Dieser Trank bringt dich wieder nach Hause.",
+    "phis.potion_of_recall_lore_2": "Verursacht ein leichtes Schwindelgefühl.",
+    "phis.is_sleeping": "%s schläft.",
+    "phis.sleep_in_bed": "In einem Bett geschlafen: %d mal",
+    "phis.is_recalling": "%s reist nach Hause.",
+    "phis.stat.potions_of_recalling_used": "Tränke der Wiederkehr benutzt: %d",
+    "phis.welcome_back": "Willkommen zu Hause!",
+    "phis.number_of_potions_used_one": "%d Trank getrunken.",
+    "phis.number_of_potions_used_multiple": "%d Tränke getrunken.",
+    "phis.number_of_days": "Anbruch des %d Tages.",
+    "phis.number_of_days_since_death": "%d Tage überlebt",
+    "phis.first": "ersten",
+    "phis.second": "zweiten",
+    "phis.third": "dritten",
+    "phis.th": "."
+}
