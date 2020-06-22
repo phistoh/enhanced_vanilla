@@ -1,7 +1,7 @@
 {
    "pack": {
 	   "pack_format": 5,
-	   "description": "Potion of Recall",
+	   "description": "A potion which allows a player to travel back home (= own spawnpoint) by drinking it.",
 	   "author": "phistoh"
    }
 }

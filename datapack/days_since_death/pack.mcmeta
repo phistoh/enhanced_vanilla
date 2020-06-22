@@ -1,7 +1,9 @@
+
 {
-   "pack": {
-	   "pack_format": 5,
-	   "description": "Keeps track of the number of days since the player's last death",
-	   "author": "phistoh"
-   }
+    "pack":
+    {
+        "pack_format": 5,
+        "description": "Keeps track of the number of days since the player's last death.",
+        "author": "phistoh"
+    }
 }

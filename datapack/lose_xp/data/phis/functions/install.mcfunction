@@ -1,2 +1,2 @@
-# Lose XP on Death
-scoreboard objectives add deathsforexp deathCount
+# scoreboard to keep track of deaths
+scoreboard objectives add phis.lose_xp deathCount

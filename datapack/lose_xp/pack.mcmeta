@@ -1,7 +1,7 @@
 {
    "pack": {
 	   "pack_format": 5,
-	   "description": "Lose XP independent of keepInventory gamerule",
+	   "description": "Lose XP independent of keepInventory gamerule.",
 	   "author": "phistoh"
    }
 }

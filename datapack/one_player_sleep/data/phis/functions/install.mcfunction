@@ -1,3 +1,4 @@
-# one player sleep
-scoreboard objectives add inbed dummy
-scoreboard objectives add slept_in_bed minecraft.custom:minecraft.sleep_in_bed
+# scoreboard instead of tag because it needs to count ticks
+scoreboard objectives add phis.inbed dummy
+# keep track of statistics
+scoreboard objectives add phis.times_slept minecraft.custom:minecraft.sleep_in_bed

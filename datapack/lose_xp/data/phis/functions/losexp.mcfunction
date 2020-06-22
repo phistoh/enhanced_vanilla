@@ -1,2 +1,2 @@
-execute at @p[scores={deathsforexp=1..}] run xp set @p[scores={deathsforexp=1..}] 0 levels
-execute at @p[scores={deathsforexp=1..}] run scoreboard players reset @p[scores={deathsforexp=1..}] deathsforexp
+execute at @p[scores={phis.lose_xp=1..}] run xp set @s 0 levels
+execute at @p[scores={phis.lose_xp=1..}] run scoreboard players reset @p[scores={phis.lose_xp=1..}] phis.lose_xp
