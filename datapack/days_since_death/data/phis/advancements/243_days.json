@@ -1,0 +1,35 @@
+
+{
+    "display":
+    {
+        "title":
+        {
+            "text": "Superior Surviving",
+            "color": "gold"
+        },
+        "description":
+        {
+            "text": "Survived 243 nights in a row"
+        },
+        "icon":
+        {
+            "item": "minecraft:netherite_block"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria":
+    {
+        "streak_accomplished":
+        {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards":
+    {
+        "experience": 243
+    },
+    "parent": "phis:81_days"
+}
