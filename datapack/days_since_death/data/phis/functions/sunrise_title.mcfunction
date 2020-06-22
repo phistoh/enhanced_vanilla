@@ -24,7 +24,12 @@ execute as @a[scores={phis.worldage=3},tag=!finished] if score @s phis.daytime m
 execute as @a[scores={phis.worldage=4..},tag=!finished] if score @s phis.daytime matches 20..1800 run title @s title [{"translate":"phis.number_of_days","with":[[{"score":{"name":"@s","objective":"phis.worldage"},"color":"gold"},{"translate":"phis.th","color":"gold"}]],"color":"gray"}]
 
 # grant advancements
-# tbd
+execute as @a[scores={phis.streak=1..},tag=!finished] if score @s phis.daytime matches 20..1800 run advancement grant @s only phis:root
+execute as @a[scores={phis.streak=3..},tag=!finished] if score @s phis.daytime matches 20..1800 run advancement grant @s only phis:3_days
+execute as @a[scores={phis.streak=9..},tag=!finished] if score @s phis.daytime matches 20..1800 run advancement grant @s only phis:9_days
+execute as @a[scores={phis.streak=27..},tag=!finished] if score @s phis.daytime matches 20..1800 run advancement grant @s only phis:27_days
+execute as @a[scores={phis.streak=81..},tag=!finished] if score @s phis.daytime matches 20..1800 run advancement grant @s only phis:81_days
+execute as @a[scores={phis.streak=243..},tag=!finished] if score @s phis.daytime matches 20..1800 run advancement grant @s only phis:243_days
 
 # reset for next day
 execute as @a[tag=!finished] if score @s phis.daytime matches 20..1800 run tag @s add finished

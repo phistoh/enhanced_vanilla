@@ -26,19 +26,26 @@
             "trigger": "minecraft:used_totem",
             "conditions":
             {
-                "player":
+                "item":
                 {
-                    "entity_scores":
+                    "item": "minecraft:totem_of_undying"
+                },
+                "player":
+                [
                     {
+                        "condition": "entity_scores",
                         "entity": "this",
-                        "phis.streak":
+                        "scores":
                         {
-                            "min": 30
+                            "phis.streak":
+                            {
+                                "min": 30
+                            }
                         }
-
                     }
-                }
+                ]
             }
-        },
-        "parent": "phis:27_days"
-    }
+        }
+    },
+	"parent": "phis:27_days"
+}
