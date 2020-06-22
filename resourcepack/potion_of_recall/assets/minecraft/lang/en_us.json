@@ -1,0 +1,11 @@
+
+{
+    "phis.potion_of_recall": "Potion of Recall",
+    "phis.potion_of_recall_lore_1": "Drinking this returns you home.",
+    "phis.potion_of_recall_lore_2": "Makes you feel a little bit dizzy though.",
+    "phis.is_recalling": "%s is travelling home.",
+    "phis.stat.potions_of_recalling_used": "Potions of Recalling used: %d",
+    "phis.welcome_back": "Welcome home!",
+    "phis.number_of_potions_used_one": "%d potion used.",
+    "phis.number_of_potions_used_multiple": "%d potions used."
+}

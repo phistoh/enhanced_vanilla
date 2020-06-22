@@ -1,0 +1,11 @@
+
+{
+    "phis.potion_of_recall": "Trank der Wiederkehr",
+    "phis.potion_of_recall_lore_1": "Dieser Trank bringt dich wieder nach Hause.",
+    "phis.potion_of_recall_lore_2": "Verursacht ein leichtes Schwindelgefühl.",
+    "phis.is_recalling": "%s reist nach Hause.",
+    "phis.stat.potions_of_recalling_used": "Tränke der Wiederkehr benutzt: %d",
+    "phis.welcome_back": "Willkommen zu Hause!",
+    "phis.number_of_potions_used_one": "%d Trank getrunken.",
+    "phis.number_of_potions_used_multiple": "%d Tränke getrunken."
+}
