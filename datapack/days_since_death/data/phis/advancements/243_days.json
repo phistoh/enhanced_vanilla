@@ -4,12 +4,12 @@
     {
         "title":
         {
-            "text": "Superior Surviving",
-            "color": "gold"
+            "color": "gold",
+            "translate": "phis.243_days.title"
         },
         "description":
         {
-            "text": "Survived 243 nights in a row"
+            "translate": "phis.243_days.description"
         },
         "icon":
         {

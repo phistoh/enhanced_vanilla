@@ -5,5 +5,19 @@
     "phis.first": "first",
     "phis.second": "second",
     "phis.third": "third",
-    "phis.th": "th"
+    "phis.th": "th",
+    "phis.root.title": "First Steps",
+    "phis.root.description": "Survived one night",
+    "phis.3_days.title": "Semi-Serious Surviving",
+    "phis.3_days.description": "Survived three nights in a row",
+    "phis.9_days.title": "Serious Surviving",
+    "phis.9_days.description": "Survived nine nights in a row",
+    "phis.27_days.title": "Significant Surviving",
+    "phis.27_days.description": "Survived 27 nights in a row",
+    "phis.81_days.title": "Supreme Surviving",
+    "phis.81_days.description": "Survived 81 nights in a row",
+    "phis.243_days.title": "Superior Surviving",
+    "phis.243_days.description": "Survived 243 nights in a row",
+    "phis.streak_saved.title": "Streak Saved",
+    "phis.streak_saved.description": "Defied Death to keep the streak"
 }

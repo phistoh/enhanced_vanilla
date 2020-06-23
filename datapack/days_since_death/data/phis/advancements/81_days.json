@@ -4,12 +4,12 @@
     {
         "title":
         {
-            "text": "Supreme Surviving",
-            "color": "dark_aqua"
+            "color": "dark_aqua",
+            "translate": "phis.81_days.title"
         },
         "description":
         {
-            "text": "Survived 81 nights in a row"
+            "translate": "phis.81_days.description"
         },
         "icon":
         {

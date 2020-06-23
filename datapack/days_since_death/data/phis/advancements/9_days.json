@@ -4,11 +4,11 @@
     {
         "title":
         {
-            "text": "Serious Surviving"
+            "translate": "phis.9_days.title"
         },
         "description":
         {
-            "text": "Survived nine nights in a row"
+            "translate": "phis.9_days.description"
         },
         "icon":
         {

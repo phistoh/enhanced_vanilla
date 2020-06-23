@@ -5,5 +5,19 @@
     "phis.first": "ersten",
     "phis.second": "zweiten",
     "phis.third": "dritten",
-    "phis.th": "."
+    "phis.th": ".",
+    "phis.root.title": "Erste Schritte",
+    "phis.root.description": "Eine Nacht überlebt",
+    "phis.3_days.title": "Überzeugendes Überleben",
+    "phis.3_days.description": "Drei Nächte hintereinander überlebt",
+    "phis.9_days.title": "Überdurchschnittliches Überleben",
+    "phis.9_days.description": "Neun Nächte hintereinander überlebt",
+    "phis.27_days.title": "Üppiges Überleben",
+    "phis.27_days.description": "27 Nächte hintereinander überlebt",
+    "phis.81_days.title": "Übertriebenes Überleben",
+    "phis.81_days.description": "81 Nächte hintereinander überlebt",
+    "phis.243_days.title": "Übermenschlisches Überleben",
+    "phis.243_days.description": "243 Nächte hintereinander überlebt",
+    "phis.streak_saved.title": "Sichere Serie",
+    "phis.streak_saved.description": "Dem Tod entkommen damit die Überlebens-Serie nicht abbricht"
 }

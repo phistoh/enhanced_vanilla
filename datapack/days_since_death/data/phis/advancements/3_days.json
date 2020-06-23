@@ -4,11 +4,11 @@
     {
         "title":
         {
-            "text": "Semi-Serious Surviving"
+            "translate": "phis.3_days.title"
         },
         "description":
         {
-            "text": "Survived three nights in a row"
+            "translate": "phis.3_days.description"
         },
         "icon":
         {

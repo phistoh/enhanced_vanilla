@@ -4,11 +4,11 @@
     {
         "title":
         {
-            "text": "Streak Saved"
+            "translate": "phis.streak_saved.title"
         },
         "description":
         {
-            "text": "Defied Death to keep the streak"
+            "translate": "phis.streak_saved.description"
         },
         "icon":
         {
@@ -31,7 +31,8 @@
                     "item": "minecraft:totem_of_undying"
                 },
                 "player":
-                [
+                {
+                    "player":
                     {
                         "condition": "entity_scores",
                         "entity": "this",
@@ -43,9 +44,9 @@
                             }
                         }
                     }
-                ]
+                }
             }
         }
     },
-	"parent": "phis:27_days"
+    "parent": "phis:27_days"
 }

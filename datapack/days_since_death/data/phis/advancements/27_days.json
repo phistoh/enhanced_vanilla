@@ -4,11 +4,11 @@
     {
         "title":
         {
-            "text": "Significant Surviving"
+            "translate": "phis.27_days.title"
         },
         "description":
         {
-            "text": "Survived 27 nights in a row"
+            "translate": "phis.27_days.description"
         },
         "icon":
         {

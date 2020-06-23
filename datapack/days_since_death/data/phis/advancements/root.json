@@ -4,11 +4,11 @@
     {
         "title":
         {
-            "text": "First Steps"
+            "translate": "phis.root.title"
         },
         "description":
         {
-            "text": "Survived one night"
+            "translate": "phis.root.description"
         },
         "icon":
         {
