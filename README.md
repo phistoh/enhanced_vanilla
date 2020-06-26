@@ -9,8 +9,8 @@ A collection of datapacks which "enhance" the vanilla Minecraft experience
 * `vanilla_tweaks`: This datapack features some small loot table and crafting recipe adjustments:
 	* Jungle temple dispenser now can contain spectral arrows, several tipped arrows (slowness, poison, weakness, leaping, healing, strong poison) and splash potions (slowness, poison, weakness)
 	* The [Ender Dragon](https://minecraft.gamepedia.com/Ender_Dragon) drops [Elytra](https://minecraft.gamepedia.com/Elytra) upon death
-	* [Arrows] can now additionally be crafted with [Iron Nuggets](https://minecraft.gamepedia.com/Iron_Nugget) or [Prismarine Shards](https://minecraft.gamepedia.com/Prismarine_Shard) in place of [Flint](https://minecraft.gamepedia.com/Flint)
-	* In recipes where [Blackstone](https://minecraft.gamepedia.com/Blackstone) can replace [Cobblestone](https://minecraft.gamepedia.com/Cobblestone) ([Furnace](https://minecraft.gamepedia.com/Furnace), Stone tools) the player can also use [Andesite](https://minecraft.gamepedia.com/Andesite) [Diorite](https://minecraft.gamepedia.com/Diorite) or [Granite](https://minecraft.gamepedia.com/Granite)
+	* [Arrows](https://minecraft.gamepedia.com/Arrow) can now additionally be crafted with [Iron Nuggets](https://minecraft.gamepedia.com/Iron_Nugget) or [Prismarine Shards](https://minecraft.gamepedia.com/Prismarine_Shard) in place of [Flint](https://minecraft.gamepedia.com/Flint)
+	* In recipes where [Blackstone](https://minecraft.gamepedia.com/Blackstone) can replace [Cobblestone](https://minecraft.gamepedia.com/Cobblestone) ([Furnace](https://minecraft.gamepedia.com/Furnace), Stone [tools](https://minecraft.gamepedia.com/Tool)/[weapons](https://minecraft.gamepedia.com/Weapons)) the player can also use [Andesite](https://minecraft.gamepedia.com/Andesite) [Diorite](https://minecraft.gamepedia.com/Diorite) or [Granite](https://minecraft.gamepedia.com/Granite)
 	* It is possible to craft *four* [Clay Balls](https://minecraft.gamepedia.com/Clay_Ball) out of a single [Clay block](https://minecraft.gamepedia.com/Clay) (thus making the Clay Ball → Clay recipe reversible)
 	* It is possible to craft *nine* [Nether Warts](https://minecraft.gamepedia.com/Nether_Wart) out of a single [Nether Wart block](https://minecraft.gamepedia.com/Nether_Wart_Block) (thus making the Nether Wart → Nether Wart block recipe reversible)
 	* Smoking [Rotten Flesh](https://minecraft.gamepedia.com/Rotten_Flesh) in the [Smoker](https://minecraft.gamepedia.com/Smoker) yields [Leather](https://minecraft.gamepedia.com/Leather)
@@ -27,3 +27,9 @@ A collection of datapacks which "enhance" the vanilla Minecraft experience
 
 ## Changes
 - **1.0**: Initial upload
+
+## Ideas / To do
+[ ] Feather artifact which grants the slow falling effect when a player holds it in their hand or offhand
+[ ] Showing the player's coordinates when they hold a compass in their hand or offhand (so the gamerule `reducedDebugInfo` can be used and coordinates become an "ingame feature" instead of a debug feature)
+[ ] Making lodestone "cheaper" (so they can be used in early game)
+[ ] Make players drop items on death but make them indestructible and increase the despawn timer (thus removing the need for the `keepInventory` gamerule but still making the game a little more forgiving)
