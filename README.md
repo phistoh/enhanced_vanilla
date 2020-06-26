@@ -9,7 +9,7 @@ A collection of datapacks which "enhance" the vanilla Minecraft experience
 * `vanilla_tweaks`: 
 	
 ## Screenshots
-![days_since_death title](/.readme/days_since_death1.png)
+![days_since_death title](https://raw.githubusercontent.com/phistoh/enhanced_vanilla/master/.readme/days_since_death_1.png)
 	
 ## Installation
 
