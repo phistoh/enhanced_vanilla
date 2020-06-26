@@ -21,7 +21,6 @@ A collection of datapacks which "enhance" the vanilla Minecraft experience
 ## Installation
 
 ## Technical Information
-* `days_since_death`: 
 * `lose_xp`: The datapack simply sets the level of a player to zero when they die.
 * `potion_of_recall`: The datapack creates an "end portal" block near the void in the End. Upon drinking the potion the player gets teleport just above the portal. They then fall into it and teleport back to their spawn. This has the advantage that the datapack does not need to store the player's current spawn point because the game keeps track of it. The drawback though is, that the player encounters two loading screens (one for teleporting to the End and one for teleporting back) and that they see the credits prematurely if they drink their first potion before leaving the end the intended way. Though the datapack keeps track of the respective "End advancements" and does not grant them prematurely.
 
@@ -29,7 +28,7 @@ A collection of datapacks which "enhance" the vanilla Minecraft experience
 - **1.0**: Initial upload
 
 ## Ideas / To do
-[ ] Feather artifact which grants the slow falling effect when a player holds it in their hand or offhand
-[ ] Showing the player's coordinates when they hold a compass in their hand or offhand (so the gamerule `reducedDebugInfo` can be used and coordinates become an "ingame feature" instead of a debug feature)
-[ ] Making lodestone "cheaper" (so they can be used in early game)
-[ ] Make players drop items on death but make them indestructible and increase the despawn timer (thus removing the need for the `keepInventory` gamerule but still making the game a little more forgiving)
+- [ ] Feather artifact which grants the slow falling effect when a player holds it in their hand or offhand
+- [ ] Showing the player's coordinates when they hold a compass in their hand or offhand (so the gamerule `reducedDebugInfo` can be used and coordinates become an "ingame feature" instead of a debug feature)
+- [ ] Making lodestone "cheaper" (so they can be used in early game)
+- [ ] Make players drop items on death but make them indestructible and increase the despawn timer (thus removing the need for the `keepInventory` gamerule but still making the game a little more forgiving)
